@@ -1,8 +1,9 @@
 import React from "react";
+import Weblayout from "../layout/Weblayout"
 
 function About() {
     return (
-        <div>
+        <Weblayout>
             <>
                 <div class="container-fluid bg-breadcrumb">
                     <div class="container text-center py-5" style={{ maxWidth: '900px' }}>
@@ -298,7 +299,7 @@ function About() {
                     </div>
                 </div>
             </>
-        </div>
+        </Weblayout>
     );
 }
 
